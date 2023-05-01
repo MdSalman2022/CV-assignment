@@ -1,74 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-body{
-    font-family: 'Poppins', sans-serif; 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: "Inter", sans-serif;
 }
-aside{
-    background-color: #f1f1f1;
-    padding: 20px; 
-    border: 1px solid #ccc;
-    border-radius: 5px; 
-    width: 350px;
-    display: flex;
-    flex-direction: column; 
-    
+
+aside {
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
 }
-img{
-    width: 50%;
-    margin: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
+img {
+  width: 50%;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 4fr; 
-    width: 1500px;
-    margin: auto;
-    gap: 50px;
-    
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 1140px;
+  margin: auto;
+  gap: 50px;
 }
-h1{
-    font-size: 2em;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;  
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
-h2{
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    text-decoration: underline;
+h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0px;
-  }
-  
-  th, td {
-    border: 1px solid #dddddd;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #dddddd;
-  }
-  
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0px;
+}
 
-  a{ 
-    text-decoration: none;
-    color: rgb(0, 0, 155);  
-    margin: 5px;  
-  }
+th,
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
 
-  span{
-    border: 1px solid black;
-    margin: 5px;
-  }
+th {
+  background-color: #dddddd;
+}
 
-  p{
-    margin: 5px;
-    padding: 0;
-  }
+a {
+  text-decoration: underline;
+  color: black;
+  margin: 5px;
+}
+
+span {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+p {
+  margin: 5px;
+  padding: 0;
+}
+
+.reference {
+  list-style-type: none;
+}
